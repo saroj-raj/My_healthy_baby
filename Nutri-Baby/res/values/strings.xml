@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nutri-Baby</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_foodlist">FoodlistActivity</string>
+    <string name="title_activity_hygenie">HygenieActivity</string>
+    <string name="title_activity_daily_nutration">DailyNutrationActivity</string>
+    <string name="title_activity_protin">ProtinActivity</string>
+    <string name="title_activity_iron_sources">IronSourcesActivity</string>
+    <string name="title_activity_vegtaken">VegtakenActivity</string>
+    <string name="title_activity_nuts">NutsActivity</string>
+    <string name="title_activity_vitamins">VitaminsActivity</string>
+    <string name="title_activity_donts">DontsActivity</string>
+    <string name="title_activity_suggetions">SuggetionsActivity</string>
+    <string name="title_activity_causes">CausesActivity</string>
+    <string name="title_activity_morningsickness">MorningsicknessActivity</string>
+    <string name="title_activity_tobacco">TobaccoActivity</string>
+    <string name="title_activity_nonvegtaken">NonvegtakenActivity</string>
+    <string name="title_activity_non_veg">NonVegActivity</string>
+    <string name="title_activity_chart">ChartActivity</string>
+    <string name="title_activity_sixmonths">SixmonthsActivity</string>
+    <string name="title_activity_next">NextActivity</string>
+    <string name="title_activity_next2">Next2Activity</string>
+    <string name="title_activity_next3">Next3Activity</string>
+    <string name="title_activity_next4">Next4Activity</string>
+    <string name="title_activity_next5">Next5Activity</string>
+
+</resources>

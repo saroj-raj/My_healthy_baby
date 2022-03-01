@@ -1,0 +1,93 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                     6-12 Months"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Infants and young children are at increased risk of malnutrition from six months of age onwards, when breast milk alone is no longer sufficient to meet all nutritional requirements and complementary feeding needs to be started
+2.Start to give complementary food at six months of age in addition to breast milk and continue breastfeeding until two years.
+3.First foods are intended to be tasters. You should introduce one new food at a time for three-four days to allow your baby to get used to it and to give yourself an opportunity to pinpoint any adverse reaction to certain foods.
+4.Give small feeds frequently throughout the day because young children have small stomachs.
+5.Increase the frequency and amount of food as the child gets older and use a separate bowl.
+6.Increase the density of food as the child gets older. Porridge that is too thin and watery to stay on a spoon fills the stomach without providing enough energy or nutrients for your child to grow and develop (consistency of porridge). Make sure you enrich the porridge with a little amount of fats/oils to provide additional energy.
+7.At 6 months of age give pureed foods that are thick enough to stay in the spoon
+8.At around 8-9 months of age, change the consistency of food from pureed to hand mashed/chunky but soft food
+9.Peas, germinated beans, lentils, crushed and powdered nuts like (peanuts/walnuts/almonds) and seeds (sesame seeds, pumpkin seeds, melon seeds, flex seeds, sunflower seeds), coconut cream or grated coconut, milk powder,   can be added to complementary food to increase nutrients and calories. 
+
+" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ffg" />
+
+            
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Why do Mothers don’t give thick consistency?"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+<TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Fear of choking
+2.Fear that thick food is difficult to swallow
+3.Fear of constipation
+4.Watery food is faster to give 
+
+" />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="wrap_content"
+    android:layout_height="162dp"
+    android:src="@drawable/aas" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1.Your baby should get Iron-Folic Acid supplementation from six months up to at least twelve months. It is recommended to continue with the supplementation up to twenty-four months in areas where anaemia is widespread. You should be able to get the syrup from any primary health care facility. Otherwise an iron powder or crushable iron tablets can be mixed with an infant food. There is a myth that your child’s skin colour would be dark by consuming folic acid supplements during pregnancy which is completely false.
+2.Cow's milk does not contain sufficient amounts of vitamins and minerals and should not be regarded as an appropriate breast milk substitute when the child is young. In addition, it is a common allergen and the later you leave it the less likely your baby will experience problems.
+3.Ensure good hygiene and safe food preparation.
+4.Follow the growth of your child by going for monthly Growth Monitoring and Promotion. Visit the health centre immediately if you see your child is not growing or losing weight.
+
+" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Next"
+    android:layout_gravity="right" />
+
+        </LinearLayout>
+
+    </ScrollView>

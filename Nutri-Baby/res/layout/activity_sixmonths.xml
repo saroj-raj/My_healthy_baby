@@ -1,0 +1,91 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                    Hygenic"
+                
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Wash or bathe a baby in a WARM, draught-free room 
+2.Wash the face, neck, underarms DAILY
+3.Wash the buttocks when soiled. Dry thoroughly
+4.Use warm water for bathing
+5.Thoroughly dry the baby, dress and cover after the bath
+6.DO NOT bathe a baby before 6 hours of age
+7.DO NOT put anything in the baby’s eyes or ear.
+8.Put the baby on the breast within 30-60 minutes after delivery and ensure skin-to-skin unrestricted contact 
+9.Give the first yellow milk (colostrum). Babies should not be given any drinks or foods before they start breastfeeding. Artificial fees given before a baby has colostrum are likely to cause allergy and infection. breastfeeding also protects a baby against diarrhea
+" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ff" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dxc" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Initiate breast feeding within 30 minutes of birth
+2.The quantity of 1st milk also called Colostrum is about 5 ml is to be given every 1-2 hour till the mature milk comes in on day 3 to 4
+3. Learn the early hunger cues of a baby like squirming, opening mouth, turning head side to side and breast feed accordingly.
+4.Breast feeding should be done at least 10-12 times in 24 hours
+5.Prolactin hormone (which produces breast milk) increases more at night than day. Encourage to breast feed at least 3-4 times at night
+6.It is absolutely necessary for mother to relax during breast feeding to have a letdown reflex
+7.Mother needs to drink 1 glass of water every time she sits down to feeds the baby 
+8.Hind milk has more fat content so it is important that baby completely empties one breast and then go on to another one
+9.Young babies tend to sleep while breastfeeding, try to wake up the baby to finish breast feeding within 30-40 minutes
+10.Babies tend to have mucus in the nose because of which sometime they have noisy breathing and they release latch frequently. During this time, putting Nasomist drops (salt-water) 5 drops in each nose, 15 minutes before breast feeding helps them tremendously
+11.25-30 gms a day is a good weight gain although we have seen 40-50 gms weight gain during catch up growth
+12.Mom should wash her hands with soap and water frequently and especially before handling her baby
+13.Do not give any fluids (including water or animal's milk) or food up to six months. 
+14.Ensure correct position and attachment to prevent common breast problems.
+15.Completely empty one breast before offering the second breast to the baby.
+16.If separated from your child during the day, you should express enough Breast milk to feed the baby during your absence. Expressed Breast milk can be stored up to 8 hours at room temperature or up to 24 hours in a refrigerator. Caregivers should be thorough on how to feed the child using a clean, open cup. Avoid using a bottle!
+17.Follow the growth of your baby by going for monthly Growth Monitoring and Promotion. Visit the health centre immediately if you see your baby is not growing or is losing weight.
+
+18.Mixed feeding, such as breastfeeding while giving other drinks and foods, may cause the baby to get diarrhoea, respiratory and ear infections. 
+19.If your baby is born premature or with low-birth weight, he/she should get Iron-Folic Acid supplementation from two months up to twenty-four months. You should be able to get the syrup from any primary health care facilities. 
+20.Continue breastfeeding even if pregnant or ill.
+21.Breast milk has all the type of micronutrients which you wont get from any other source during the first six months. So its very essential to breastfeed during the first 6months.
+22.Mothers should also eat well or else they cant produce milk  for their child if they are not getting proper nutrients. 
+" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next" />
+
+        </LinearLayout>
+
+    </ScrollView>

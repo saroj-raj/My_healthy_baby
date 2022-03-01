@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutri_baby"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nutri_baby.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.FoodlistActivity"
+            android:label="@string/title_activity_foodlist" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.HygenieActivity"
+            android:label="@string/title_activity_hygenie" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.DailyNutrationActivity"
+            android:label="@string/title_activity_daily_nutration" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.ProtinActivity"
+            android:label="@string/title_activity_protin" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.IronSourcesActivity"
+            android:label="@string/title_activity_iron_sources" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.VegtakenActivity"
+            android:label="@string/title_activity_vegtaken" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.NutsActivity"
+            android:label="@string/title_activity_nuts" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.VitaminsActivity"
+            android:label="@string/title_activity_vitamins" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.DontsActivity"
+            android:label="@string/title_activity_donts" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.SuggetionsActivity"
+            android:label="@string/title_activity_suggetions" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.CausesActivity"
+            android:label="@string/title_activity_causes" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.MorningsicknessActivity"
+            android:label="@string/title_activity_morningsickness" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.TobaccoActivity"
+            android:label="@string/title_activity_tobacco" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.NonvegtakenActivity"
+            android:label="@string/title_activity_nonvegtaken" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.NonVegActivity"
+            android:label="@string/title_activity_non_veg" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.ChartActivity"
+            android:label="@string/title_activity_chart" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.SixmonthsActivity"
+            android:label="@string/title_activity_sixmonths" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.NextActivity"
+            android:label="@string/title_activity_next" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.Next2Activity"
+            android:label="@string/title_activity_next2" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.Next3Activity"
+            android:label="@string/title_activity_next3" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.Next4Activity"
+            android:label="@string/title_activity_next4" >
+        </activity>
+        <activity
+            android:name="com.example.nutri_baby.Next5Activity"
+            android:label="@string/title_activity_next5" >
+        </activity>
+    </application>
+
+</manifest>

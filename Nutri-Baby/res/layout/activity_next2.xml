@@ -1,0 +1,109 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Young Children from one year to two years"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Continue with good eating habits started at six months. As your baby nears their first birthday he/she will be able to eat what the rest of the family is eating. Ensure that the food is chopped into manageable, bite-sized pieces.
+
+2.Try to ensure that your child eats at least two hot, nutritious meals a day. 
+
+3.Try to give healthy snacks between meals like fresh and dried fruits or raw vegetables, yogurt . Offer your child lots of fresh, safe water to drink between meals to help the body work more efficiently. Offer fruit juices with meals to avoid tooth decay.
+4.Avoid un-pasteurized dairy products, soft eggs and under-cooked meat/fish to prevent food poisoning. Don't be tempted to add too much salt and spices as this places an enormous strain on children's' kidneys which have not developed enough to cope.
+
+5.Cut down highly sweetened foods and soft drinks which contain colouring and preservatives. These can cause severe health problems. 
+
+6.Good habits can be established early: Encourage your child to wash their hands before they eat anything 
+
+" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Infant and young Child nutrition during and after illness"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.The onset of malnutrition may be due to illness and bad recovery. Once a child is malnourished, he/she is more likely to suffer from infections and diseases due to lower body defences. Recovery is likely to take longer. This is called the malnutrition – infection cycle.
+2.Many illnesses, including diarrhoea, measles, and respiratory infections can make the effects of malnutrition worse and vice versa. They stop the body from absorbing important nutrients and they also increase the body's need for more nutrients in the diet.
+" />
+
+    
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Key behaviours (0-6 months):"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.During and after illness increase the frequency of breastfeeding for your baby to limit weight loss and encourage quicker recovery.
+ 
+2.Do not give other fluids, except medicines prescribed by a trained health worker.
+ 
+3.Carefully check the growth of your child during and after illness: visit the health centre or a trained community health volunteer immediately if the baby is losing weight during illness and/or has not regained weight after illness.
+ 
+4.As a lactating mother, you can continue to breastfeed even if you fall sick with a cold, flu or diarrhoea.
+" />
+
+        
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key behaviours (6-24 months):"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.During illness, increase the frequency of breastfeeding and offer additional food for your baby to limit weight loss and encourage quicker recovery.
+ 
+2.After illness, give one additional meal of solid food each day during the following two weeks to help the child regain weight.
+ 
+3.Use boiled/purified water for giving medicines.
+" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Next" />
+
+        </LinearLayout>
+
+    </ScrollView>

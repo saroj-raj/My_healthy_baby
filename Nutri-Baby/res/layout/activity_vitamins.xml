@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VitaminsActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Micronutrients "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="           Type 1: micronutrients: Vitamin A, D, E, K, Iron, iodine, copper, calcium,selenium, thiamin, riboflavin, niacin, folate Deficiency in Type I micronutrients in children is easily detected as it is visible but it does not limit growth. For example, deficiency in Iodine will lead to Thyroid problems, deficiency in calcium will lead to boor bone formation/growth, deficiency in vitamin A leads to problem with eyes etc.
+         Type2: Micronutrients: Essential fatty acids, essential amino acids,potassium, magnesium, phosphorus, sulphur, zinc, Sodium, nitrogen etc.Deficiency in type II leads to inhibits growth in children leading tostunting and wasting.
+        "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Next" />
+
+</RelativeLayout>
